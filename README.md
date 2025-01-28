@@ -69,3 +69,27 @@ python bank_account.py
 `withdraw(amount: float/int)` - Deducts money from the balance if sufficient funds exist.
 
 `show_balance()` - Displays the account balance.
+
+## Example Use
+```python
+johan = User("Johan", 23, "Male")
+ulami = Bank("Ulami", 27, "Female")
+
+johan.show_details()
+ulami.show_details()
+ulami.deposit(2000)
+ulami.withdraw(200)
+ulami.show_balance()
+```
+
+## Expected Output
+```shell
+johan = User("Johan", 23, "Male")
+ulami = Bank("Ulami", 27, "Female")
+
+johan.show_details()
+ulami.show_details()
+ulami.deposit(2000)
+ulami.withdraw(200)
+ulami.show_balance()
+```
