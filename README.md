@@ -40,32 +40,32 @@ Ensure you have Python installed on your system.
 python bank_account.py
 ```
 
-Class Structure
+## Class Structure
 
-User Class
+`User` Class
 
-Attributes:
+**Attributes:**
 
-_name (str) - User's name
+*_name* (str) - User's name
 
-_age (int) - User's age
+*_age* (int) - User's age
 
-_gender (str) - User's gender
+*_gender* (str) - User's gender
 
-Methods:
+**Methods:**
 
-show_details() - Displays personal details of the user.
+`show_details()` - Displays personal details of the user.
 
-Bank Class (Inherits from User)
+`Bank` Class (Inherits from `User`)
 
-Additional Attribute:
+**Additional Attribute:**
 
-_balance (float) - Stores account balance, initialized to 0.
+`_balance` (float) - Stores account balance, initialized to 0.
 
-Methods:
+**Methods:**
 
-deposit(amount: float/int) - Adds money to the balance.
+`deposit(amount: float/int)` - Adds money to the balance.
 
-withdraw(amount: float/int) - Deducts money from the balance if sufficient funds exist.
+`withdraw(amount: float/int)` - Deducts money from the balance if sufficient funds exist.
 
-show_balance() - Displays the account balance.
+`show_balance()` - Displays the account balance.
