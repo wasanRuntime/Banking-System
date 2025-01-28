@@ -36,9 +36,9 @@ Ensure you have Python installed on your system.
 
 3. Run the script using the command:
 
-``
+```
 python bank_account.py
-``
+```
 
 Class Structure
 
