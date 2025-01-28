@@ -84,12 +84,25 @@ ulami.show_balance()
 
 ## Expected Output
 ```shell
-johan = User("Johan", 23, "Male")
-ulami = Bank("Ulami", 27, "Female")
+Personal Details
+----------------------
+Name: Johan
+Age: 23
+Gender: Male
 
-johan.show_details()
-ulami.show_details()
-ulami.deposit(2000)
-ulami.withdraw(200)
-ulami.show_balance()
+Personal Details
+----------------------
+Name: Ulami
+Age: 27
+Gender: Female
+
+------------------------------------------
+Account balance has been updated: $ 2000
+------------------------------------------
+
+-----------------------------------------------------------------------------------------
+You have successfully withdrawn: $ 200 Your current balance is: $ 1800
+------------------------------------------------------------------------------------------
+
+Account Balance: $ 1800
 ```
